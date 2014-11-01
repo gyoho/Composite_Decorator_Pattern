@@ -2,7 +2,7 @@
 
 public class Burger implements PriceComponent {
 
-	double basePrice = 0;
+	private double basePrice = 0;
     
     public double operation(Component selection) {
     	
