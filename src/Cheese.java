@@ -1,10 +1,10 @@
  
 
-public class Cheese extends Decorator {
+public class Cheese extends PriceDecorator {
 
     private double addedPrice;
 
-    public Cheese( Component c) {
+    public Cheese( PriceComponent c) {
         super( c ) ;
     }
 

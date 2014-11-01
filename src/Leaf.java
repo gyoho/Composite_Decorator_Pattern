@@ -49,6 +49,7 @@ public class Leaf implements Component {
 	    return description;
 	}
 	
+	
 	public double operation(Component selection) {
 		return 0;
 	}

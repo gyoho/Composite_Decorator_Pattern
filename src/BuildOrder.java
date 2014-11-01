@@ -17,7 +17,7 @@ public class BuildOrder {
     	Composite cheeseSelection = new Composite("Cheese");
     	cheeseSelection.addChild(new Leaf( "Danish Blue Cheese" ));
     	cheeseSelection.addChild(new Leaf("Horseradish Cheddar"));
-//    	cheeseSelection.addChild(new Leaf("Savory Swiss"));
+    	
     
     	Composite toppingSelection = new Composite("Topping");      
     	toppingSelection.addChild(new Leaf("Bermuda Red Onion"));

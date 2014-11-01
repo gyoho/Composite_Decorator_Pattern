@@ -1,6 +1,6 @@
  
 
-public class Burger implements Component {
+public class Burger implements PriceComponent {
     
     double basePrice = 0;
     
@@ -26,26 +26,5 @@ public class Burger implements Component {
     	
         return basePrice;
     }
-    
-    public void printDescription() {
-    }
-    
-    public void addChild(Component c) {
-    }
-    
-    public void removeChild(Component c) {
-    }
-    
-    public Component getChild(int idx) {
-        return null;
-    }
-
-	public Component getChild(String leafName) {
-		return null;
-	}
-
-	public String getDescription() {
-		return null;
-	}
 
 }

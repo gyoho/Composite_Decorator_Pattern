@@ -49,8 +49,7 @@ public class Composite implements Component {
 	public String getDescription() {
 		return description;
 	}
-	
-	
+
 	public double operation(Component selection) {
 		return 0;
 	}

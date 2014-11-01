@@ -1,10 +1,10 @@
  
 
-public class Premium extends Decorator {
+public class Premium extends PriceDecorator {
 
     private double addedPrice;
 
-    public Premium( Component c) {
+    public Premium( PriceComponent c) {
         super( c ) ;
     }
 
