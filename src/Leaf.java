@@ -40,17 +40,13 @@ public class Leaf implements Component {
         return null ;
 	}
 	
+
 	public Component getChild(String leafName) {
 		return null;
 	}
-	
-	// additional method for Decorator
+
 	public String getDescription() {
-	    return description;
-	}
-	
-	public double operation(Component selection) {
-		return 0;
+		return description;
 	}
 }
  

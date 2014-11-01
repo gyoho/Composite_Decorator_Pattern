@@ -4,8 +4,8 @@ import java.util.ArrayList;
 
 public class Composite implements Component {
 
-    private ArrayList<Component> components = new ArrayList<Component>()  ;
-    private String description ;
+    protected ArrayList<Component> components = new ArrayList<Component>()  ;
+    protected String description ;
     
     public Composite ( String d ) {
         description = d ;
@@ -50,9 +50,5 @@ public class Composite implements Component {
 		return description;
 	}
 	
-	
-	public double operation(Component selection) {
-		return 0;
-	}
 }
  

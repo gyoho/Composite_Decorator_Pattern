@@ -1,19 +1,19 @@
  
 
-public class Premium extends Decorator {
+public class Premium extends PriceDecorator {
 
     private double addedPrice;
 
-    public Premium( Component c) {
+    public Premium( PriceComponent c) {
         super( c ) ;
     }
 
-    public double operation(Component selection) {
+    public double operation(CustomBurger selection) {
     	addedPrice = super.operation(selection) ;
         return setOptions( addedPrice, selection ) ;
     }
 
-    private double setOptions(double in, Component selection) {
+    private double setOptions(double in, CustomBurger selection) {
     	
     	Component premiumSelection = selection.getChild("Premium");
     	

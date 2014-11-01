@@ -1,19 +1,19 @@
  
 
-public class Sauce extends Decorator {
+public class Sauce extends PriceDecorator {
 
     private double addedPrice;
 
-    public Sauce( Component c) {
+    public Sauce( PriceComponent c) {
         super( c ) ;
     }
 
-    public double operation(Component selection) {
+    public double operation(CustomBurger selection) {
         addedPrice = super.operation(selection) ;
         return setOptions( addedPrice, selection ) ;
     }
 
-    private double setOptions(double in, Component selection) {
+    private double setOptions(double in, CustomBurger selection) {
     	
     	Component sauceSelection = selection.getChild("Sauce");
         
