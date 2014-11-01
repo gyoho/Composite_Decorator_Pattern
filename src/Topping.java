@@ -8,12 +8,12 @@ public class Topping extends PriceDecorator {
         super( c ) ;
     }
 
-    public double operation(CustomBurger selection) {
+    public double operation(Component selection) {
     	addedPrice = super.operation(selection) ;
         return setOptions( addedPrice, selection ) ;
     }
 
-    private double setOptions(double in, CustomBurger selection) {
+    private double setOptions(double in, Component selection) {
     	
     	Component toppingSelection = selection.getChild("Topping");
     	

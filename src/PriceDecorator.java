@@ -10,7 +10,8 @@ public class PriceDecorator implements PriceComponent {
 
     // Use Component as parameter type instead CustomBurger
 	public double operation(Component selection) {
-        return component.operation(selection) ;
+		double result = component.operation(selection) ;
+        return result ;
     }
 
 }
